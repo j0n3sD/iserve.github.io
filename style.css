@@ -1,0 +1,51 @@
+
+@font-face {
+    font-family: RobotoCondensed-Light;
+    src: url(../fonts/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+    font-family: RobotoCondensed-Regular;
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoCondensed-Bold;
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+
+.navbar-nav {
+    font-family: RobotoCondensed-Bold;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.dropdown-item {
+    font-family: RobotoCondensed-Regular;
+    text-decoration: white;
+}
+
+.nav-right {
+    font-family: RobotoCondensed-Bold;
+}
+
+.btn {
+    background-color: #9C6CF9;
+    border: #9C6CF9;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    background-color: #9C6CF9;
+    border: #9C6CF9;
+    color: white;
+    transform: rotate(5deg);
+}
+
+.navbar-toggler {
+    background-color: grey;
+}
+
+@media only screen and (max-width: 738px) {
+
